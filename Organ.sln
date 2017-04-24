@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Organ", "Organ\Organ.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DicomIO", "DicomIO\DicomIO.vcxproj", "{D9456FB5-3A67-4BA8-80E7-92219CC87EA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics", "Graphics\Graphics.vcxproj", "{C8A46E9B-71D6-4DC2-93A5-EB8FCC571736}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsRender", "GraphicsRender\GraphicsRender.vcxproj", "{B5424C3F-CAD7-480A-B146-F97F77FFF16B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsRenderOpenGL", "GraphicsRenderOpenGL\GraphicsRenderOpenGL.vcxproj", "{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphics", "Graphics", "{EC8A16A4-F3BF-4097-901B-A1F6C86482E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qOrgan", "qOrgan\qOrgan.vcxproj", "{63F153B6-2DC2-42D6-83C0-136846B02C51}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsRenderQt", "GraphicsRenderQt\GraphicsRenderQt.vcxproj", "{D8EAD295-518A-426D-9754-76604707AF87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{D9456FB5-3A67-4BA8-80E7-92219CC87EA1}.Debug|x64.ActiveCfg = Debug|x64
+		{D9456FB5-3A67-4BA8-80E7-92219CC87EA1}.Debug|x64.Build.0 = Debug|x64
+		{D9456FB5-3A67-4BA8-80E7-92219CC87EA1}.Release|x64.ActiveCfg = Release|x64
+		{D9456FB5-3A67-4BA8-80E7-92219CC87EA1}.Release|x64.Build.0 = Release|x64
+		{C8A46E9B-71D6-4DC2-93A5-EB8FCC571736}.Debug|x64.ActiveCfg = Debug|x64
+		{C8A46E9B-71D6-4DC2-93A5-EB8FCC571736}.Debug|x64.Build.0 = Debug|x64
+		{C8A46E9B-71D6-4DC2-93A5-EB8FCC571736}.Release|x64.ActiveCfg = Release|x64
+		{C8A46E9B-71D6-4DC2-93A5-EB8FCC571736}.Release|x64.Build.0 = Release|x64
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B}.Debug|x64.ActiveCfg = Debug|x64
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B}.Debug|x64.Build.0 = Debug|x64
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B}.Release|x64.ActiveCfg = Release|x64
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B}.Release|x64.Build.0 = Release|x64
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Debug|x64.ActiveCfg = Debug|x64
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Debug|x64.Build.0 = Debug|x64
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Release|x64.ActiveCfg = Release|x64
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Release|x64.Build.0 = Release|x64
+		{63F153B6-2DC2-42D6-83C0-136846B02C51}.Debug|x64.ActiveCfg = Debug|x64
+		{63F153B6-2DC2-42D6-83C0-136846B02C51}.Debug|x64.Build.0 = Debug|x64
+		{63F153B6-2DC2-42D6-83C0-136846B02C51}.Release|x64.ActiveCfg = Release|x64
+		{63F153B6-2DC2-42D6-83C0-136846B02C51}.Release|x64.Build.0 = Release|x64
+		{D8EAD295-518A-426D-9754-76604707AF87}.Debug|x64.ActiveCfg = Debug|x64
+		{D8EAD295-518A-426D-9754-76604707AF87}.Debug|x64.Build.0 = Debug|x64
+		{D8EAD295-518A-426D-9754-76604707AF87}.Release|x64.ActiveCfg = Release|x64
+		{D8EAD295-518A-426D-9754-76604707AF87}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8A46E9B-71D6-4DC2-93A5-EB8FCC571736} = {EC8A16A4-F3BF-4097-901B-A1F6C86482E1}
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B} = {EC8A16A4-F3BF-4097-901B-A1F6C86482E1}
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00} = {EC8A16A4-F3BF-4097-901B-A1F6C86482E1}
+		{D8EAD295-518A-426D-9754-76604707AF87} = {EC8A16A4-F3BF-4097-901B-A1F6C86482E1}
+	EndGlobalSection
+EndGlobal
